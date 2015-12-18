@@ -42,8 +42,10 @@ Post = Astro.Class({
 In the example above, we have two classes. Each class has its own associated collection in which documents of given class are stored. Each post has its author which resides in the Users collection. In the `Post` class we've defined relation between classes. We can access a user object related with the given post using the `author` field name. Let's see it in action.
 
 ```js
-Posts.find({
-  'author.name': 'John Smith'
+Posts.find({}, {
+  sort: {
+    'author.name': 1
+  }
 });
 ```
 
