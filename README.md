@@ -5,7 +5,7 @@ The relations module is the client only module for Astronomy. It allows querying
 ## Installation
 
 ```sh
-$ meteor add usefulio:astronomy-relations
+$ meteor add useful:astronomy-relations
 ```
 
 ## Usage
