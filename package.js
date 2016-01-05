@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'usefulio:astronomy-relations',
+  name: 'useful:astronomy-relations',
   version: '1.0.0',
   summary: 'Relation for Meteor Astronomy',
   git: 'https://github.com/usefulio/meteor-astronomy-relations.git'
